@@ -1,7 +1,7 @@
 # ====================================================================================
 # Setup Project
 
-PROJECT_NAME ?= crossplane-vsphere-provider
+PROJECT_NAME ?= provider-vsphere
 PROJECT_REPO ?= github.com/DanielVilaFalcon/$(PROJECT_NAME)
 
 export TERRAFORM_VERSION ?= 1.3.3
@@ -57,7 +57,7 @@ UPTEST_VERSION = v0.2.1
 # ====================================================================================
 # Setup Images
 
-REGISTRY_ORGS ?= xpkg.upbound.io/upbound
+REGISTRY_ORGS ?= dcr.disashop.team/devops
 IMAGES = $(PROJECT_NAME)
 -include build/makelib/imagelight.mk
 
