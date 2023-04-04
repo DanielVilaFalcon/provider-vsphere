@@ -10,7 +10,7 @@ import (
 
 	ujconfig "github.com/upbound/upjet/pkg/config"
 
-	"github.com/DanielVilaFalcon/provider-vsphere/config/null"
+	"github.com/DanielVilaFalcon/provider-vsphere/config/license"
 )
 
 const (
